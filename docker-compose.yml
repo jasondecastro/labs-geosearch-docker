@@ -50,7 +50,7 @@ services:
   # NYC PAD normalizer
   nycpad_normalizer:
     build:
-      context: "http://github.com/nycplanning/labs-geosearch-pad-normalize.git"
+      context: "http://github.com/jasondecastro/labs-geosearch-pad-normalize.git"
     container_name: pelias_nycpad_normalizer
     volumes:
       - "${DATA_DIR}:/data"

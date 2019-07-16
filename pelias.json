@@ -6,7 +6,7 @@
     "apiVersion":"5.6"
   },
   "schema": {
-    "indexName": "pelias_19a"
+    "indexName": "pelias_19b"
   },
   "api": {
     "services": {
@@ -24,7 +24,7 @@
           "sourceURL": "https://planninglabs.nyc3.digitaloceanspaces.com/geosearch-data/labs-geosearch-pad-normalized.zip"
         }
       ],
-      "datapath": "/data/nycpad",
+      "datapath": "./data/nycpad",
       "import": [{
           "filename":"labs-geosearch-pad-normalized.csv"
       }]
