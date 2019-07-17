@@ -41,7 +41,7 @@ services:
   # custom NYC PAD importer
   nycpad:
     build:
-      context: "https://github.com/nycplanning/labs-geosearch-pad-importer.git"
+      context: "https://github.com/jasondecastro/labs-geosearch-pad-importer.git"
     container_name: pelias_nycpad
     volumes:
       - "./pelias.json:/code/pelias.json"
